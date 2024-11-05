@@ -17,7 +17,7 @@ public class LoopsLoginExercise {
             System.out.println("Enter with your password");
             String password = entradas.nextLine();
 
-            if(login, usuario) && Objects.equals(password, senha)){
+            if(Objects.equals(login, usuario) && Objects.equals(password, senha)){
                 System.out.println("Access permitted");
                 close = 3;
                 System.out.println("End program");
